@@ -1,7 +1,7 @@
 # I - THE DANGER
 
 ## 1-1 War stories
-### 1.1.1 HIJACKING
+1.1.1 HIJACKING
 ```bash
 	A hijacking attack is an attacks accurs when an attackers set up a rogue wireless hostpots, in other way an evil twin attack by taking down the original hostpots and making another one with the same SSID so that people can connect with this as trusted, wich allow the attacker to see all the trafic and take password sessions ...
 ```
