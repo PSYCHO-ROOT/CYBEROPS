@@ -14,7 +14,7 @@ There are two different modes in which a CPU operates when the computer has Wind
 Programs such as user applications, run in user mode and have no direct access to hardware or memory locations.
 * Operating system code runs in kernel mode
 Code that is executing in kernel mode has unrestricted access to the underlying hardware and it's mostly reserved for the most trusted functions of the OS, crashes in code running in kernel mode stop the operation of the entire computer.
-### Windows BooT
+### Windows BooT Process
 * Boot Sequence for Windows:
 * Power on Self Test (POST)
 * POST for each adapter card that has a BIOS
