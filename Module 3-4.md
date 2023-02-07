@@ -14,6 +14,17 @@ There are two different modes in which a CPU operates when the computer has Wind
 Programs such as user applications, run in user mode and have no direct access to hardware or memory locations.
 * Operating system code runs in kernel mode
 Code that is executing in kernel mode has unrestricted access to the underlying hardware and it's mostly reserved for the most trusted functions of the OS, crashes in code running in kernel mode stop the operation of the entire computer.
+### Windows BooT
+* Boot Sequence for Windows:
+* Power on Self Test (POST)
+* POST for each adapter card that has a BIOS
+* BIOS reads the MBR
+* MBR takes over control of the boot process and starts BOOTMGR
+* BOOTMGR reads the Boot Configuration Data file to know which OS to load and where to find the OS on the boot partition
+* BOOTMGR invokes WINLOAD.EXE in order to load the NTOSKRNL.EXE file and HAL.DLL
+* BOOTMGR reads the registry files and loads device drivers
+* NTOSKRNL.EXE starts the WINLOGON.EXE program and displays the Windows login screen
+
 ### Windows File System
 * FAT
 
