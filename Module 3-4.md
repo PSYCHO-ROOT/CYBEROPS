@@ -15,8 +15,7 @@ Programs such as user applications, run in user mode and have no direct access t
 * Operating system code runs in kernel mode
 Code that is executing in kernel mode has unrestricted access to the underlying hardware and it's mostly reserved for the most trusted functions of the OS, crashes in code running in kernel mode stop the operation of the entire computer.
 ### Windows BooT Process
-* Boot Sequence for Windows:
-* Power on Self Test (***POST***)
+* Start with Power on Self Test (***POST***)
 * POST for each adapter card, to make sure all of the hardware devices are communicating.
 * ***BIOS*** reads the MBR, the MBR contains a small program that is responsible for locating and loading the operating system.
 * ***UEFI*** firmware boots by loading EFI program files, stored as .efi files in a special disk partition, known as the EFI System Partition (ESP).
@@ -28,7 +27,7 @@ Code that is executing in kernel mode has unrestricted access to the underlying 
 * ***Winload.exe*** also uses Kernel Mode Code Signing (KMCS) to make sure that all drivers are digitally signed.
 * ***Winload.exe*** reads the registry files and loads device drivers
 * ***Winload.exe*** runs ***Ntoskrnl.exe*** which starts the Windows kernel and sets up the ***HAL***.
-* ***NTOSKRNL.EXE*** starts the ***WINLOGON*** service and displays the Windows ***login*** screen
+* Finally ***NTOSKRNL.EXE*** starts the ***WINLOGON*** service and displays the Windows ***login*** screen
 
 ### Windows File System
 * FAT
