@@ -16,14 +16,19 @@ Programs such as user applications, run in user mode and have no direct access t
 Code that is executing in kernel mode has unrestricted access to the underlying hardware and it's mostly reserved for the most trusted functions of the OS, crashes in code running in kernel mode stop the operation of the entire computer.
 ### Windows BooT Process
 * Boot Sequence for Windows:
-* Power on Self Test (POST)
-* POST for each adapter card that has a BIOS
-* BIOS reads the MBR
-* MBR takes over control of the boot process and starts BOOTMGR
-* BOOTMGR reads the Boot Configuration Data file to know which OS to load and where to find the OS on the boot partition
-* BOOTMGR invokes WINLOAD.EXE in order to load the NTOSKRNL.EXE file and HAL.DLL
-* BOOTMGR reads the registry files and loads device drivers
-* NTOSKRNL.EXE starts the WINLOGON.EXE program and displays the Windows login screen
+* Power on Self Test (***POST***)
+* POST for each adapter card, to make sure all of the hardware devices are communicating.
+* ***BIOS*** reads the MBR, the MBR contains a small program that is responsible for locating and loading the operating system.
+* ***UEFI*** firmware boots by loading EFI program files, stored as .efi files in a special disk partition, known as the EFI System Partition (ESP).
+* ***MBR*** takes over control of the boot process and starts BOOTMGR
+* ***BOOTMGR*** switches the system from real mode to protected mode so that all of the system memory can be used
+* ***BOOTMGR*** reads the Boot Configuration Data file to know which OS to load and where to find the OS on the boot partition
+* ***BCD*** contains any code needed to start the computer, along with an indication of whether it's coming out of ***Hebirnation***, or a ***cold start*** 
+* ***BOOTMGR*** invokes ***WINLOAD.EXE***, To read the ***Hiberfil.sys*** file which contains the ***State*** of the computer when it was put into hibernation.
+* ***Winload.exe*** also uses Kernel Mode Code Signing (KMCS) to make sure that all drivers are digitally signed.
+* ***Winload.exe*** reads the registry files and loads device drivers
+* ***Winload.exe*** runs ***Ntoskrnl.exe*** which starts the Windows kernel and sets up the ***HAL***.
+* ***NTOSKRNL.EXE*** starts the ***WINLOGON*** service and displays the Windows ***login*** screen
 
 ### Windows File System
 * FAT
