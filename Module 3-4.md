@@ -123,3 +123,17 @@ A security policy is a set of objectives that ensures the security of a network,
 Password guidelines - Any user that must log on to a computer or connect to a network resource should be required to have a password.
 The Account Lockout Policy - in Account Policies to prevent brute-force login attempts.
 The Local Security Policy applet contains many other security settings that apply specifically to the local computer. You can configure User Rights, Firewall Rules, and even the ability to restrict the files that users or groups are allowed to run with the AppLocker.
+
+# Linux Overview
+## 4.0 Linux Basics
+### + What is Linux ?
+Linux is an operating system that was created in 1991. Linux is open source, fast, reliable, and small. It requires very little hardware resources to run and is highly customizable.
+### + The value of Linux
+Linux is often the operating system of choice in the Security Operations Center (SOC). These are some of the reasons to choose Linux:
+* Linux is open source
+* The Linux CLI is very powerful
+* The user has more control over the OS
+* It allows for better network communication control
+### + Linux in the SOC
+The figure shows Sguil, which is the cybersecurity analyst console in a special version of Linux called Security Onion. Security Onion is an open source suite of tools that work together for network security analysis.
+![net](https://2.bp.blogspot.com/-eBo74PZ9iB8/TZ2PY0SD4kI/AAAAAAAAAMs/gBuphzgLpQM/s1600/sguil_rocks.PNG)
