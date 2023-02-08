@@ -124,6 +124,8 @@ Password guidelines - Any user that must log on to a computer or connect to a ne
 The Account Lockout Policy - in Account Policies to prevent brute-force login attempts.
 The Local Security Policy applet contains many other security settings that apply specifically to the local computer. You can configure User Rights, Firewall Rules, and even the ability to restrict the files that users or groups are allowed to run with the AppLocker.
 
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Linux Overview
 ## 4.0 Linux Basics
 ### + What is Linux ?
