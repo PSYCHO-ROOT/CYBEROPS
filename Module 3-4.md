@@ -124,8 +124,6 @@ Password guidelines - Any user that must log on to a computer or connect to a ne
 The Account Lockout Policy - in Account Policies to prevent brute-force login attempts.
 The Local Security Policy applet contains many other security settings that apply specifically to the local computer. You can configure User Rights, Firewall Rules, and even the ability to restrict the files that users or groups are allowed to run with the AppLocker.
 
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------
-
 # Linux Overview
 ## 4.0 Linux Basics
 ### + What is Linux ?
@@ -140,3 +138,12 @@ Linux is often the operating system of choice in the Security Operations Center 
 The figure shows Sguil, which is the cybersecurity analyst console in a special version of Linux called Security Onion. Security Onion is an open source suite of tools that work together for network security analysis.
 
 ![net](https://2.bp.blogspot.com/-eBo74PZ9iB8/TZ2PY0SD4kI/AAAAAAAAAMs/gBuphzgLpQM/s1600/sguil_rocks.PNG)
+
+## 4.1 Linux Servers and Clients
+### + Servers, Services, and Their Ports
+In order that a computer can be the server for multiple services, ports are used. A port is a reserved network resource used by a service. A server is said to be “listening” on a port when it has associated itself to that port.
+ It is common practice to leave the service running in its default port. The table lists a few commonly used ports and their services. These are also called “well-known ports”.
+ 
+ ![net](https://study-ccna.com/wp-content/uploads/2016/03/tcp_udp_ports.jpg)
+ 
+ 
