@@ -146,4 +146,23 @@ In order that a computer can be the server for multiple services, ports are used
  
  ![net](https://study-ccna.com/wp-content/uploads/2016/03/tcp_udp_ports.jpg)
  
+### + Clients
+ Clients are programs or applications designed to communicate with a specific type of server.
+Also known as client applications, clients use a well-defined protocol to communicate with the server.
+The File Transfer Protocol (FTP) client is software used to communicate with an FTP server.
+
+The figure shows a client uploading files to a server.
  
+ ![net](https://26878.fs1.hubspotusercontent-na1.net/hub/26878/file-216888371.png/secure_ftp.png)
+ 
+ ### + Service Config Files
+ In Linux, services are managed using configuration files. Common options in configuration files are port number, location of the hosted resources, and client authorization details.
+ When the service starts, it looks for its configuration files, loads them into memory, and adjusts itself according to the settings in the files.
+## 4.2 The Linux File System
+ ### + File System Types in Linux
+ There are many different kinds of file systems, varying in properties of speed, flexibility, security, size, structure, logic and more.
+ 
+* ***Ext*** - the default file system in several major Linux distributions, ext is a journaled file system a journal is a technique used to minimize the risk of file system corruption in the event of sudden power loss and keeps a log (or journal) of all the file system changes about to be made.
+* ***NFS (Network File System)*** - NFS is a network-based file system, allowing file access over the network.
+* ***Swap File System*** - The swap file system is used by Linux when it runs out of RAM.
+* ***Master Boot Record (MBR)*** -  MBR stores all the information about the way in which the file system is organized and quickly hands over control to a loading function, which loads the OS.
