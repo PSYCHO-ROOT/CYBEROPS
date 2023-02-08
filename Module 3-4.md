@@ -136,4 +136,5 @@ Linux is often the operating system of choice in the Security Operations Center 
 * It allows for better network communication control
 ### + Linux in the SOC
 The figure shows Sguil, which is the cybersecurity analyst console in a special version of Linux called Security Onion. Security Onion is an open source suite of tools that work together for network security analysis.
+
 ![net](https://2.bp.blogspot.com/-eBo74PZ9iB8/TZ2PY0SD4kI/AAAAAAAAAMs/gBuphzgLpQM/s1600/sguil_rocks.PNG)
