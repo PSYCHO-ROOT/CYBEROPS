@@ -101,3 +101,10 @@ The table lists some common net commands:
 * ***net stop*** - Stops a network service
 * ***net use*** - Connects, disconnects, and displays information about shared network resources
 * ***net view*** - Shows a list of computers and network devices on the network
+
+### + Windows Server
+These are some of the services that Windows Server provides:
+* ***Network Services*** - DNS, DHCP, Terminal services, Network Controller, and Hyper-V Network virtualization
+* ***File Services*** - SMB, NFS, and DFS
+* ***Web Services*** - FTP, HTTP, and HTTPS
+* ***Management*** - Group policy and Active Directory domain services control
