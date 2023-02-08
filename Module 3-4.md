@@ -108,3 +108,18 @@ These are some of the services that Windows Server provides:
 * ***File Services*** - SMB, NFS, and DFS
 * ***Web Services*** - FTP, HTTP, and HTTPS
 * ***Management*** - Group policy and Active Directory domain services control
+
+## 3.4 Windows Security
+### + The netstat Command
+When malware is present in a computer, it will often open communication ports on the host to send and receive data.
+The netstat command can be used to look for inbound or outbound connections that are not authorized. (***Netstat -abno***)
+When a program is suspected of being malware, a little research can be performed to determine its legitimacy. From there, the process can be shut down with Task Manager, and malware removal software can be used to clean the computer.
+### + Event Viewer
+Windows Event Viewer logs the history of application, security, and system events.
+Windows includes two categories of event logs: Windows Logs, and Application and Services Logs.  Events that are displayed in these logs have a level: information, warning, error, or critical.
+It is also possible to create a custom view. This is useful when looking for certain types of events, finding events that happened during a certain time period, displaying events of a certain level, and many other criteria.
+### + Local Security Policy
+A security policy is a set of objectives that ensures the security of a network, the data, and the computer systems in an organization.
+Password guidelines - Any user that must log on to a computer or connect to a network resource should be required to have a password.
+The Account Lockout Policy - in Account Policies to prevent brute-force login attempts.
+The Local Security Policy applet contains many other security settings that apply specifically to the local computer. You can configure User Rights, Firewall Rules, and even the ability to restrict the files that users or groups are allowed to run with the AppLocker.
