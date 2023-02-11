@@ -105,4 +105,3 @@ Consist of 2 Parts : Address Resolotion / Data Link Protocols
 #### Data Link Protocols
 * ***Ethernet***
 * ***WLAN***
-* 
