@@ -51,3 +51,25 @@ Networking protocols define a common format and set of rules for exchanging mess
 
 ![net](https://ccna-200-301.online/wp-content/uploads/2020/04/TCP-IP-Protocol-Suite.png)
 
+### - Application Layer
+
+Consist of 5 main parts : Name System / Host Config / Email / File Transfer / Web & Web Service
+
+#### Name System
+* ***DNS*** - Translates domain names such as cisco.com, into IP addresses.
+#### Host Config
+* ***DHCPv4/6*** - A DHCP server dynamically assigns IPv4/6 addressing information to DHCP clients at start-up and allows the addresses to be re-used when no longer needed.
+* ***SLAAC*** - A method that allows a device to obtain its IPv6 addressing information without using a DHCPv6 server.
+#### Email
+* ***SMTP*** - Enables clients to send email to a mail server and enables servers to send email to other servers.
+* ***PoP3*** - Enables clients to retrieve email from a mail server and download the email to the client's local mail application.
+* ***IMAP*** - Enables clients to access email stored on a mail server as well as maintaining email on the server.
+#### File Transfer
+* ***FTP*** - Sets the rules that enable a user on one host to access and transfer files to and from another host over a network .
+* ***SFTP*** - SSH File Transfer Protocol. Can be used to establish a secure file transfer session in which the file transfer is encrypted.
+#### Web & Web Service
+* ***HTTP*** - A set of rules for exchanging text, graphic images, sound, video, and other multimedia files on the World Wide Web.
+* ***HTTPS*** - A secure form of HTTP that encrypts the data that is exchanged over the World Wide Web.
+* ***REST*** - Representational State Transfer. Use application programming interfaces (APIs) and HTTP requests to create web applications.
+
+### - Transport Layer
