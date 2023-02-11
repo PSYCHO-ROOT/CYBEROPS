@@ -51,7 +51,7 @@ Networking protocols define a common format and set of rules for exchanging mess
 
 ![net](https://ccna-200-301.online/wp-content/uploads/2020/04/TCP-IP-Protocol-Suite.png)
 
-### - Application Layer
+### $ Application Layer
 
 Consist of 5 main parts : Name System / Host Config / Email / File Transfer / Web & Web Service
 
@@ -72,7 +72,7 @@ Consist of 5 main parts : Name System / Host Config / Email / File Transfer / We
 * ***HTTPS*** - A secure form of HTTP that encrypts the data that is exchanged over the World Wide Web.
 * ***REST*** - Representational State Transfer. Use application programming interfaces (APIs) and HTTP requests to create web applications.
 
-### - Transport Layer
+### $ Transport Layer
 
 Consist of 2 Parts : Connection-Oriented and Connectionless
 
@@ -81,7 +81,7 @@ Consist of 2 Parts : Connection-Oriented and Connectionless
 #### Connectionless
 * ***UDP*** -  Enables a process running on one host to send packets to a process running on another host. UDP does not confirm successful datagram transmission.
 
-### - Internet Layer
+### $ Internet Layer
 
 Consist of 3 main Parts : Internet protocol / Messaging / Routing Protocols
 
@@ -96,7 +96,7 @@ Consist of 3 main Parts : Internet protocol / Messaging / Routing Protocols
 * ***EIGRP*** - Uses a composite metric based on bandwidth, delay, load and reliability.
 * ***BGP*** - Used between Internet Service Providers (ISPs).
 
-### Network Access Layer
+### $ Network Access Layer
 
 Consist of 2 Parts : Address Resolotion / Data Link Protocols
 
