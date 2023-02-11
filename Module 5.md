@@ -73,3 +73,36 @@ Consist of 5 main parts : Name System / Host Config / Email / File Transfer / We
 * ***REST*** - Representational State Transfer. Use application programming interfaces (APIs) and HTTP requests to create web applications.
 
 ### - Transport Layer
+
+Consist of 2 Parts : Connection-Oriented and Connectionless
+
+#### Connection-Oriented
+* ***TCP*** -  Enables reliable communication between processes running on separate hosts, that confirm successful delivery.
+#### Connectionless
+* ***UDP*** -  Enables a process running on one host to send packets to a process running on another host. UDP does not confirm successful datagram transmission.
+
+### - Internet Layer
+
+Consist of 3 main Parts : Internet protocol / Messaging / Routing Protocols
+
+#### Internet Protocol
+* ***IPv4***
+* ***IPv6***
+* ***NAT*** - Translates IPv4 addresses from a private network into globally unique public IPv4 addresses.
+#### Messaging
+* ***ICMPv4/6*** - Provides feedback from a destination host to a source host about errors in packet delivery.
+#### Routing Protocols
+* ***OSPF*** -  Uses a hierarchical design based on areas. OSPF is an open standard interior routing protocol.
+* ***EIGRP*** - Uses a composite metric based on bandwidth, delay, load and reliability.
+* ***BGP*** - Used between Internet Service Providers (ISPs).
+
+### Network Access Layer
+
+Consist of 2 Parts : Address Resolotion / Data Link Protocols
+
+#### Address Resolotion
+* ***ARP*** - Provides dynamic address mapping between an IPv4 address and a hardware address. (He may be also in The internet layer)
+#### Data Link Protocols
+* ***Ethernet***
+* ***WLAN***
+* 
