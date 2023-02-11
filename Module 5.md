@@ -37,3 +37,17 @@ A combination of technologies take Terry’s search to the search engine website
 and is processed by its powerful servers. The results are then encoded and addressed to Terry’s school and her device.
 
 All of these transitions and connections happen in a fraction of a second, and Terry has started on her path to learning about her subject.
+
+## 5.2 Communications Protocols
+### + What are Protocols?
+Having a wired or wireless physical connection between end devices is not enough to enable communication. For communication to occur, devices must know “how” to communicate. Communication, whether by face-to-face or over a network, is governed by rules called protocols.
+
+For example, consider two people communicating face-to-face. Prior to communicating, they must agree on how to communicate. If the communication is using voice, they must first agree on the language. Next, when they have a message to share, they must be able to format that message in a way that is understandable. For example, if someone uses the English language, but poor sentence structure, the message can easily be misunderstood.
+
+Similarly, network protocols specify many features of network communication
+
+Networking protocols define a common format and set of rules for exchanging messages between devices. Network protocols dictate the message encoding, formatting, encapsulation, size, timing, and delivery options.
+### + The TCP/IP Protocol Suite
+
+![net](https://ccna-200-301.online/wp-content/uploads/2020/04/TCP-IP-Protocol-Suite.png)
+
