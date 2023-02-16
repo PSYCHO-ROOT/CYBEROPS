@@ -105,3 +105,37 @@ Consist of 2 Parts : Address Resolotion / Data Link Protocols
 #### Data Link Protocols
 * ***Ethernet***
 * ***WLAN***
+
+### + The OSI Model
+* Application
+```bash
+the layer facilitates communication through lower layers in order to establish connections with applications at the other end.
+Web browsers (Google Chrome, Firefox, Safari, etc.) TelNet, and FTP, are examples of communications  that rely  on Layer 7.
+```
+* Presentation
+```bash
+In general, it represents the preparation or translation of application format to network format, or from network formatting to application format. 
+n other words, the layer “presents” data for the application or the network. A good example of this is encryption and decryption of data for secure transmission
+```
+* Session
+```bash
+When two computers or other networked devices need to speak with one another, a session needs to be created, and this is done at the Session Layer.
+this layer involve setup, coordination (how long should a system wait for a response, for example) and termination etc .
+```
+* Transport
+```bash
+deals with the coordination of the data transfer between end systems and hosts. How much data to send, at what rate, where it goes, etc. 
+best known example of the Transport Layer are the TCP and UDP port numbers work at Layer 4, while IP addresses work at Layer 3, the Network Layer.
+```
+* Network
+```bash
+This layer responsible for packet forwarding, including routing through different routers.
+```
+* Data-link
+```bash
+Provides node-to-node data transfer (MAC)
+```
+* Physical
+```bash
+Represents the electrical and physical representation of the system. This can include everything from the cable type, radio frequency link (as in a Wi-Fi network), as well as the layout of pins, voltages, and other physical requirements. 
+```
